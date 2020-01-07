@@ -18,6 +18,7 @@ def linear_search_m1(my_array, k):
             print('Method 1 finds ' + str(k) + ' at index ' + str(i))
             #Find the other method for string formatting.
             break
+    print(-1)
     return -1
 
 def l_search_while_loop(this_array, x):
@@ -27,12 +28,13 @@ def l_search_while_loop(this_array, x):
         if this_array[l] == x:
             return l
         l += 1
-    return -1
+    return -2
 
 def recursive_linear_search(arr, element, l):
     n = len(arr)
     if l == n:
-        return -1
+        print(-3)
+        return -3
     if arr[l] == element:
         print("Found recusively at ", l)
         return l
@@ -40,7 +42,7 @@ def recursive_linear_search(arr, element, l):
 
 def main():
     my_array = [3,1,5,6,3,9,2,4]
-    k = 4
+    k = 12
     linear_search_m1(my_array, k)
     print(l_search_while_loop(my_array, k))
     recursive_linear_search(my_array, k, 0)
