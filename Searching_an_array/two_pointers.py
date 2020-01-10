@@ -3,6 +3,9 @@ The two pointer technique is used to find pairs in a sorted array
 """
 # Given an array sorted in ascending order, find if there exists any pair that
 # sums to a given value.
+"""
+Add the brute force methodology
+"""
 
 def two_pointer(array, value):
     left = 0
