@@ -1,2 +1,2 @@
 # Data-Structures-and-Algorithms-in-Python
-This is a Youtube channel repository
+#Hello, this is the repository for my Youtube Channel
